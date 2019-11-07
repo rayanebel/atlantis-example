@@ -1,0 +1,5 @@
+version: 3
+projects:
+- dir: asie/preprod
+  apply_requirements: [mergeable]
+- dir: asie/prod

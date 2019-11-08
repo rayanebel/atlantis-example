@@ -2,4 +2,6 @@ version: 3
 projects:
 - dir: asie/preprod
   apply_requirements: []
+  workflow: default
 - dir: asie/prod
+  workflow: default

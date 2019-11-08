@@ -15,3 +15,7 @@ variable "region" {
 variable "profile" {
     type = string
 }
+
+variable "acl" {
+    type = string
+}

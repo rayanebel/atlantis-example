@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "buckets3" {
 
 resource "aws_s3_bucket" "buckets4" {
   bucket = "axa-tran-nonprod-rbe-test-atlantis-2"
-  acl    = "private"
+  acl    = "${var.acl}"
 
   tags = {
     Name        = "My bucket"
